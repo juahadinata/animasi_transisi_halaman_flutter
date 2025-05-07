@@ -1,4 +1,4 @@
-# animasi_transisi_halaman_flutter
+## **Cara Menganimasikan Transisi Halaman pada Aplikasi dengan Flutter**
 
 Pertama kita buat enum TransitinType nya, agar kita bebas memilih type yang ingin kita pakai :
 ```dart
