@@ -1,5 +1,13 @@
 ## **Cara Menganimasikan Transisi Halaman pada Aplikasi dengan Flutter**
 
+# Daftar Isi
+
+- [Pendahuluan](#pendahuluan)
+- [Instalasi](#instalasi)
+- [Penggunaan](#penggunaan)
+- [Kontribusi](#kontribusi)
+- [Lisensi](#lisensi)
+
 Pertama kita buat enum TransitinType nya, agar kita bebas memilih type yang ingin kita pakai :
 ```dart
 enum TransitionType {
@@ -151,6 +159,35 @@ class MyHomePage extends StatelessWidget {
 
 ```
 
+dan terakhir, kita bisa mencobanya :
+```dart
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Transitions Example',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: const MyHomePage(),
+    );
+  }
+}
+
+```
+
+
+# Project Saya
+
+## Pendahuluan
+## Instalasi
+## Penggunaan
+## Kontribusi
+## Lisensi
 dan terakhir, kita bisa mencobanya :
 ```dart
 void main() {
